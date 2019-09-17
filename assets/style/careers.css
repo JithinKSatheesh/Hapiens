@@ -1,0 +1,59 @@
+/*=====================================================================*/
+
+h1{	
+	font-size: 3em;
+	font-weight:800;
+}
+p{
+	width: 560px
+}
+
+.hero{
+	width: 100%;
+	height: 100vh;
+	background-color: blue;
+}
+/*----------------------------------------------------------*/
+
+.hero_child{
+	width: 100%;
+	height: 100vh;
+	background-color: white;
+	background-image: url("../image/CareersMainBG.png"); 
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-wrap: wrap;
+}	
+
+.hero_text{
+	width: 600px;
+	height: 300px;
+	transform: translate(0,calc(40vh - 150px));
+	margin-left: 100px;
+}
+.hero_image{
+	width: 500px;
+	height: 500px;
+	margin-right: 100px;
+	/*background-color: blue;*/
+	transform: translate(0,calc(30vh - 150px));
+	margin-left: auto;
+	background-image: url("../image/AboutUsImage.png");
+	background-size:  contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/*----------------------------------------------------------*/
+
+.hero_bottom_bar{
+	width:70px;
+	height: 70px;
+	margin: auto;
+	background-image: url("../image/ScrollIndicator.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+/*=====================================================================*/
